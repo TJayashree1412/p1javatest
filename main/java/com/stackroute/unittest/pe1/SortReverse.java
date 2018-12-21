@@ -1,11 +1,9 @@
-import java.util.Scanner;
-import java.util.Arrays;
-import java.util.Collections;
-public class Assign7 {
+package com.stackroute.unittest.pe1;
 
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+import java.util.Arrays;
+
+public class SortReverse {
+    public boolean sortReverse(int n) {
         int num=n,i=0,even=0;
         int[] rem=new int[20];
         while(n>0) {
@@ -23,11 +21,11 @@ public class Assign7 {
         System.out.println("Sum of even numbers: "+even);
         if(even>15)
         {
-            System.out.println("True");
+            return true;
         }
         else
         {
-            System.out.println("False");
+            return false;
         }
     }
 }

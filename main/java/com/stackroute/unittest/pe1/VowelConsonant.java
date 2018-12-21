@@ -6,7 +6,7 @@ public class VowelConsonant {
         String error[]={"error!"};
         for (int i = 0; i < s.length(); i++) {
             if(((c[i]>=65) && (c[i]<=90)) || ((c[i]>=97) && (c[i]<=122))){
-                if (c[i] == 'a' || c[i] == 'e' || c[i] == 'i' || c[i] == 'o' || c[i] == 'u') {
+                if (c[i] == 'a' || c[i] == 'e' || c[i] == 'i' || c[i] == 'o' || c[i] == 'u'|| c[i] == 'A' || c[i] == 'E' || c[i] == 'I' || c[i] == 'O' || c[i] == 'U') {
                     output[i] = "Vowel";
                 } else {
                     output[i] = "Consonant";
